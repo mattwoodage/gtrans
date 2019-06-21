@@ -1,0 +1,34 @@
+@import 'colours.scss';
+@import 'variables.scss';
+@import 'fonts.scss';
+
+
+:global(h1) {
+  font-size:20px;
+}
+
+:global(.callingAt) {
+  font-style: italic;
+}
+
+:global(.ontime) {
+  display: inline-block;
+  background-color:green;
+  color:#fff;
+  padding: 2px 5px;
+  margin:4px 0px;
+}
+
+:global(.delayed) {
+  display: inline-block;
+  background-color:red;
+  color:#fff;
+  padding: 2px 5px;
+  margin:4px 0px;
+}
+
+:global(.train) {
+  padding:20px;
+  border:1px solid #c00;
+  margin:10px 0px;
+}

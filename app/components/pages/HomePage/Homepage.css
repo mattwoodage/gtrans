@@ -1,0 +1,48 @@
+@import 'reset-css';
+@import '../../../styles/global.scss';
+
+:local(.input) {
+  padding: 10px;
+  font-size:20px;
+  width:100%;
+  margin-bottom:50px;
+}
+
+:local(.container) {
+}
+
+:local(.inner) {
+  padding: 20px;
+}
+
+:local(.trans) {
+
+  width:100%;
+  padding: 5px;
+  margin: 20px 0px;
+
+  background-color:#fff;
+
+  b {
+    letter-spacing:2px;
+    font-size:13px;
+    margin-bottom:5px;
+  }
+
+  p {
+    font-size:30px;
+    font-style: italic;
+    line-height:35px;
+    padding:5px;
+  }
+
+  i {
+    font-style: italic;
+    padding:5px;
+    display:block;
+    width:100%;
+    text-align:right;
+    font-size:15px;
+    color:#999;
+  }
+}
