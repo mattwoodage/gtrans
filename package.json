@@ -48,7 +48,7 @@
     "react-router-dom": "^4.2.2",
     "reset-css": "^4.0.1",
     "soap": "^0.27.1",
-    "stompit": "^0.26.0",
+    "stompit": "^1.0.0",
     "zlib": "^1.0.5"
   },
   "devDependencies": {
